@@ -1,4 +1,4 @@
-export const resolvers = {
+const resolvers = {
   Query: {
     // get all tracks, will be used to populate the homepage grid of our web client
     tracksForHome: (_, __, {dataSources}) => {
@@ -12,3 +12,4 @@ export const resolvers = {
   }
 };
 
+module.exports = resolvers;
